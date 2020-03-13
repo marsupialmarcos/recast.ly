@@ -133,7 +133,8 @@ You're going to use the sample data in *src/data/exampleVideoData.js* to build o
 * Refactor the *VideoList* component to dynamically render one *VideoListEntry* component for each video object in *exampleVideoData*
 * Refactor the *VideoListEntry* component to dynamically render based on the video object it receives
 * Make sure the tests for *VideoList* and *VideoListEntry* are passing. You can open the tests with npm test
-When it's all set up, you should see the titles, thumbnails, and descriptions of some React Tutorials on the page. If you notice a Warning in the console about a "unique 'key' prop", know that this has to do with React' s performance, but you can ignore it if you wish.
+
+When it's all set up, you should see the titles, thumbnails, and descriptions of some React Tutorials on the page. If you notice a Warning in the console about a "unique 'key' prop", know that this has to do with [React' s performance](https://reactjs.org/docs/composition-vs-inheritance.html#dynamic-children), but you can ignore it if you wish.
 
 **Create a dynamic Video Player component.** 
 
