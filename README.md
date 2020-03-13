@@ -12,12 +12,14 @@ Your task is to build a YouTube Video Player app using React.
 * When using React, developers don't have to listen to changes and manually trigger a re-render - instead, React will re-render the necessary components upon state change.
 
 **High Level Goals of this Sprint**
+
 * Learn React and how to think about web apps as components in React
 * Learn how to transpile code with Babel's command line tool
 * Practice using ES6 features
 * Continue practicing interactions with a REST API (in this case, the [YouTube Data API](https://developers.google.com/youtube/v3/?hl=en))
 
 **Thinking in Components**
+
 When designing and building front-end applications, a good approach is to break the functionality of the application apart into small, easily understandable and reusable pieces, often called *components.* React components are like JavaScript functions - they accept inputs (called props) and return React elements describing what should appear on the screen.
 
 **App Organization**
@@ -98,9 +100,11 @@ npm comes with a handy [scripting](https://docs.npmjs.com/misc/scripts) feature 
 * Write an *npm start* script that combines the previous two build steps together
 
 **React Dev Tools**
+
 Install the [React Dev Tools](https://github.com/facebook/react-devtools) extension for Chrome to make debugging this sprint easier.
 
 **Try the Problem**
+
 During the "Try the Problem" phase, you should:
 
 * Work through the React Components primer solo
