@@ -135,7 +135,7 @@ You're going to use the sample data in *src/data/exampleVideoData.js* to build o
 * Make sure the tests for *VideoList* and *VideoListEntry* are passing. You can open the tests with npm test
 When it's all set up, you should see the titles, thumbnails, and descriptions of some React Tutorials on the page. If you notice a Warning in the console about a "unique 'key' prop", know that this has to do with React' s performance, but you can ignore it if you wish.
 
-**Create a dynamic Video Player component. 
+**Create a dynamic Video Player component.** 
 
 Videos are played by passing a source url to the *iframe* tag inside the *VideoPlayer* component. The video associated with the id included after *https://www.youtube.com/embed/* will get played. Because this is also a stateless functional component, we can build it out with our example data.
 
